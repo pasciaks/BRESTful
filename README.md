@@ -1,4 +1,7 @@
 # BRESTful
 NodeJS Rest API.
 Takes Requests gives JSON.
-Base code has User Piece & middleware implemented.
+
+## Flow
+Communication between front end and api done through apiKey.
+Base code has user model, controller implemented. Has middleware for checking user apiKey.
