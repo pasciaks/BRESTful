@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "compression": "^1.7.1",
+    "lastfm": "^0.9.2",
+    "lob": "^4.1.1",
+    "lusca": "^1.5.1",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.0.1"
+  }
+}
