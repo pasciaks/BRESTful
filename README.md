@@ -1,5 +1,5 @@
 # BRESTful
-NodeJS Rest API.
+Brendans RESTful API.
 Takes Requests gives JSON.
 
 ### Use
