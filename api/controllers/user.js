@@ -11,6 +11,11 @@ const transporter = nodemailer.createTransport({
     }
 });
 
+
+/**
+ * POST /doChangePassword
+ * 
+ */
 exports.doChangePassword = (req,res) => {
     User.findOne({email: req.body.email.toLowerCase()}, (err, user) => {
         if (err) return res.json({success: false, message: err});
@@ -109,6 +114,10 @@ exports.doRegister = (req, res, next) => {
     });
 };
 
+/**
+ * GET /forgotPassword
+ * 
+ */
 exports.forgotPassword = (req, res) => {
     User.findOne({email: req.query.email.toLowerCase()}, (err, user) => {
         if (err) return res.json({success: false, message: err});
